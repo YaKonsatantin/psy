@@ -26,6 +26,4 @@ until test.finished?
   test.next_question
 end
 result.print_result(test.psyho_score)
-
 # Вводим результаты теста методом print_result у объекта класса ResultPrinter
-#result.print_result(test)
