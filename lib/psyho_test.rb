@@ -63,6 +63,7 @@ class PsyhoTest
     #итерируем @current_question для перехода к следущему вопросу
     @current_question += 1
   end
+  
   def psyho_score
     return @psyho_score
   end
