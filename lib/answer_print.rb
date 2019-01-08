@@ -39,28 +39,23 @@ class AnswerPrint
     @psyho_score = 0
     @result_print = 0
   end
+  
   def print_result(score)
     @psyho_score = score
     puts @psyho_score
 
     @result_print = if (@psyho_score > 29)
       @answers[0]
-
     elsif (@psyho_score > 24)
       @answers[1]
-
     elsif (@psyho_score > 18)
       @answers[2]
-
     elsif (@psyho_score > 13)
       @answers[3]
-
     elsif (@psyho_score > 8)
       @answers[4]
-
     elsif (@psyho_score > 3)
       @answers[5]
-
     else
       @answers[6]
     end
