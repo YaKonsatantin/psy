@@ -3,7 +3,7 @@ require_relative "lib/answer_print"
 user_input = ARGV[0]
 sum = 0
 
-if user_input == nil
+if !user_input
   puts "Добрый день Аноним!"
 else
   puts "Добрый день #{user_input1}!"
