@@ -1,3 +1,7 @@
-"# psy" 
+# Psyhology test (in Russian
 
-`psyhology test on russian language from https://psylist.net`
+Source: https://psylist.net
+
+## Run instructions
+
+`ruby main.rb`
