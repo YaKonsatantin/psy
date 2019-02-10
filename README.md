@@ -1,4 +1,4 @@
-# Psyhology test (in Russian
+# Psyhology test (in Russian)
 
 Source: https://psylist.net
 
